@@ -1,0 +1,289 @@
+
+#posi {
+    color: #000 !important;
+    font-size: 13px !important;
+    margin-left: 300px !important;
+    position: absolute;
+    text-shadow: none;
+    z-index: 1;
+}
+
+.n_logo {
+    color: #000;
+    text-decoration: none;
+}
+.n_search {
+}
+.n_search {
+    margin-left: -330px; 
+    margin-top: 20px;
+    position: absolute;
+}
+.n_sbar {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #000;
+    font-size: 14px;
+    height: 50px;
+    margin-right: -11px;
+    padding-left: 10px;
+    width: 400px;
+}
+.n_button {
+    background: #fff url(http://web.archive.org/web/20171123185226im_/http://www.googglet.com/img/search.png) no-repeat scroll 5px 0;
+    border: 1px solid #ccc;
+    color: #fff;
+    font-size: 15px;
+    width: 50px;
+    height: 50px;
+    margin-bottom: -7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+.n_serico {
+    background: #000 none repeat scroll 0 0;
+    border: medium none;
+    height: 50px;
+    margin-right: -7px;
+    padding-top: 6px;
+    text-align: center;
+    width: 50px;
+}
+.n_button:hover {
+    background: #555 none repeat scroll 0 0;
+	color:fff;
+}
+
+.sugges {
+    border: 1px dashed;
+    line-height: 1.5;
+    overflow: hidden;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+   width: 350px; /* width: 260px;  */
+}
+
+.sugges span {
+    border-bottom: 1px dashed;
+    color: #444;
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.sugges a {
+    border: 1px solid #f0f0f0;
+    display: block;
+    font-family: arial;
+    font-size: 18px;
+    overflow: hidden;
+    padding-left: 10px;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#header {
+    background: #f0f0f0 none repeat scroll 0 0;
+    border: 1px solid #f0f0f0;
+    color: #fff;
+    font-family: arial;
+    font-size: 32px;
+    font-weight: bold;
+    height: 90px;
+    line-height: 1.5;
+    margin-top: -8px;
+    text-align: center;
+    text-shadow: 2px 2px 3px #ccc;
+    vertical-align: middle;
+}
+
+#header > a {
+    float: left;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 26px;
+    text-decoration: none;
+ color: #f21e0b;
+}
+
+.body {
+    margin: 0 auto;
+ 
+width: 100%;
+}
+
+  .active {
+       pointer-events: none;
+       cursor: default;
+    } 
+
+
+.img-list {
+    border: 1px solid #f0f0f0;
+    display: inline-block;
+	cursor:pointer;
+}
+
+.img-list .wb_Image3 {
+  display: inline-block;
+  margin: 0 1em 1em 0;
+
+}
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  
+}
+.text-content {
+    background: #000 none repeat scroll 0 0;
+    border-top: 1px solid;
+    color: black;
+}
+#wb_Image3:hover span.text-content{
+opacity:1;
+}
+span.text-content {
+  cursor: pointer;
+
+  opacity: 0;
+}
+
+
+.image-wrapper img {
+  max-width: 280px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  height: auto;
+  width: auto; /* For IE8 */
+}
+
+
+body {
+    background-color: #ffffff;
+    color: #333333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 0;
+}
+body {
+    background: rgba(0, 0, 0, 0) url("/web/20171123185226im_/http://googglet.com/img/body-bg.png") repeat scroll 0 0;
+    color: #838383;
+    font: 13px/1.7em "Open Sans";
+}
+body {
+    background: #f9f6f1 none repeat scroll 0 0;
+    font: 13px/1.7em "Open Sans";
+}
+body {
+    background-color: #fff;
+    color: #333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+}
+body {
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 100%;
+}
+html {
+    font-size: 10px;
+}
+html {
+    font-family: sans-serif;
+}
+.sec2 {
+   border-left: 1px solid #121212;
+    box-shadow: 1px 0 #2a2a2a;
+    float: right;
+    height: 100%;
+    width: 40%;
+}
+.image-wrapper {
+    padding-left: 30px;
+}
+.imgprev {
+    background: #444 none repeat scroll 0 0;
+    display: none;
+    height: 500px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: fixed;
+    text-align: center;
+    width: 100%;   margin-top: -100px;
+    z-index: 1;
+}.imgprev iframe {
+    border: 0 none;
+    height: 100%;
+    max-height: 500px;
+    max-width: 100%;
+    min-width: 50%;
+}.imgPrvTitle {
+    color: #f0f0f0;
+    font-family: arial;
+    font-size: 25px;
+}.imgPrvDet {
+    color: #999;
+}.alertP {
+    color: #888;
+    margin-top: 10px;
+}.innerSec {
+    margin-top: 150px;
+}.newc {
+    background: #777 none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    float: right;
+    font-size: 34px;
+    margin-right: 2px;
+	cursor:pointer;
+    margin-top: -7px;
+    width: 50px;
+}.footer {
+    background: #444 none repeat scroll 0 0;
+    border-top: 2px solid #ccc;
+    color: #fff;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}.footer a {
+    border-right: 1px solid #777;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    padding: 5px;
+}
+.footer > a:hover {
+    background: #fff none repeat scroll 0 0;
+    color: #000;
+    text-decoration: none;
+}
+/*
+     FILE ARCHIVED ON 18:52:26 Nov 23, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:06:15 Aug 16, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 471.69 (3)
+  esindex: 0.012
+  captures_list: 494.817
+  CDXLines.iter: 16.623 (3)
+  PetaboxLoader3.datanode: 364.542 (5)
+  exclusion.robots: 0.283
+  exclusion.robots.policy: 0.262
+  RedisCDXSource: 0.833
+  PetaboxLoader3.resolve: 1423.218 (3)
+  load_resource: 1786.261
+*/
